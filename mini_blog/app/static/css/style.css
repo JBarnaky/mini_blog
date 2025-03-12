@@ -1,0 +1,33 @@
+/* Custom styles for the mini-blog application */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Rating stars styling */
+.rating-stars {
+    display: flex;
+    justify-content: center;
+}
+
+/* Post content styling */
+.card-text img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Comment section styling */
+.comment-form {
+    margin-bottom: 2rem;
+}
+
+/* Footer styling */
+footer {
+    margin-top: auto;
+}
